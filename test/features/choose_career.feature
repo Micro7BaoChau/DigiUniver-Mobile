@@ -24,10 +24,10 @@ Feature:Chose Career
   Scenario: Change selected Career
   When Alice click {'Technology'} item
   Then {'Technology'} item has green color
-  And {'Architecture'} item has gray color
-  When Alice click {'Architecture'} item
+  And {'Life Style'} item has gray color
+  When Alice click {'Life Style'} item
   Then {'Technology'} item has gray color
-  And {'Architecture'} item has green color
+  And {'Life Style'} item has green color
 
   Scenario: Change display mode for next time visit
   When Alice click {'Technology'} item

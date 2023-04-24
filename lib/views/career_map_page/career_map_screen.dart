@@ -6,7 +6,6 @@ class CareerMap extends StatefulWidget{
   final title;
   @override
   State<CareerMap> createState()=>CareerMapState();
-
 }
 
 class CareerMapState extends State<CareerMap> {

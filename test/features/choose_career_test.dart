@@ -47,10 +47,10 @@ void main() {
       await bddSetUp(tester);
       await aliceClickItem(tester, 'Technology');
       await itemHasGreenColor(tester, 'Technology');
-      await itemHasGrayColor(tester, 'Architecture');
-      await aliceClickItem(tester, 'Architecture');
+      await itemHasGrayColor(tester, 'Life Style');
+      await aliceClickItem(tester, 'Life Style');
       await itemHasGrayColor(tester, 'Technology');
-      await itemHasGreenColor(tester, 'Architecture');
+      await itemHasGreenColor(tester, 'Life Style');
     });
     testWidgets('''Change display mode for next time visit''', (tester) async {
       await bddSetUp(tester);
